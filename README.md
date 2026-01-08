@@ -80,7 +80,7 @@ GET /api/v1/portfolio
 Returns current holdings with calculated average price and current value.
 
 ## ⚙️ Trading Logic (Simulation)
-#### MARKET Orders
+### MARKET Orders
 
 Executed immediately
 
@@ -88,7 +88,7 @@ Trade is created instantly
 
 Portfolio is updated
 
-#### LIMIT Orders
+### LIMIT Orders
 
 Validated and placed
 
