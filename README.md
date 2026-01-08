@@ -135,9 +135,3 @@ Single hardcoded user (mock authentication)
 Static instrument prices
 
 In-memory storage (data resets on restart)
-
-<<<<<<< HEAD
-No real exchange or market integration
-=======
-No real exchange or market integration
->>>>>>> 0f2a6c7 (Final commits)
