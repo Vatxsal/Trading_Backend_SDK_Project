@@ -1,4 +1,4 @@
-# Trading Backend & SDK – Campus Hiring Assignment (Bajaj Broking)
+# Trading Backend & SDK Assignment – (Bajaj Broking)
 
 ## 📌 Overview
 This project is a **simplified trading backend system** built as part of the Bajaj Broking campus hiring assignment.  
@@ -79,6 +79,8 @@ GET /api/v1/portfolio
 
 Returns current holdings with calculated average price and current value.
 
+---
+
 ## ⚙️ Trading Logic (Simulation)
 ### MARKET Orders
 
@@ -94,6 +96,8 @@ Validated and placed
 
 Not matched/executed (simulation only)
 
+---
+
 ## ⚠️ Validations & Error Handling
 Quantity must be greater than zero
 
@@ -102,6 +106,8 @@ LIMIT orders require price
 Invalid symbols are rejected
 
 Proper HTTP status codes are returned (200, 201, 400, 404)
+
+---
 
 ## 📦 Wrapper SDK
 A lightweight SDK is provided to abstract REST API usage for client applications.
@@ -113,6 +119,8 @@ Example SDK methods:
 2) placeOrder()
 
 3) getPortfolio()
+
+---
 
 ## 📸 Sample API Usage
 Screenshots demonstrating:
@@ -128,6 +136,8 @@ Trade execution
 Portfolio update
 
 are included as part of the submission.
+
+---
 
 ## 📝 Assumptions
 Single hardcoded user (mock authentication)
