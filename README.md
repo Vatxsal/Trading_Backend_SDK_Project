@@ -8,7 +8,7 @@ The system simulates a real-world stock trading platform using **in-memory stora
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Backend:** Node.js (Express.js)
 - **API Format:** REST (JSON)
 - **Database:** In-memory storage (Objects / Arrays)
@@ -17,7 +17,7 @@ The system simulates a real-world stock trading platform using **in-memory stora
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
 ### 1️⃣ Install Dependencies
 npm install
@@ -28,7 +28,9 @@ node src/app.js
 ### 3️⃣ Server will run at
 http://localhost:3000
 
-## 📡 API Endpoints
+---
+
+## API Endpoints
 🔹 1. Fetch Instruments :-
 
 GET /api/v1/instruments
@@ -81,7 +83,7 @@ Returns current holdings with calculated average price and current value.
 
 ---
 
-## ⚙️ Trading Logic (Simulation)
+## Trading Logic (Simulation)
 ### MARKET Orders
 
 Executed immediately
@@ -98,7 +100,7 @@ Not matched/executed (simulation only)
 
 ---
 
-## ⚠️ Validations & Error Handling
+## Validations & Error Handling
 Quantity must be greater than zero
 
 LIMIT orders require price
@@ -109,7 +111,7 @@ Proper HTTP status codes are returned (200, 201, 400, 404)
 
 ---
 
-## 📦 Wrapper SDK
+## Wrapper SDK
 A lightweight SDK is provided to abstract REST API usage for client applications.
 
 Example SDK methods:
@@ -122,7 +124,7 @@ Example SDK methods:
 
 ---
 
-## 📸 Sample API Usage
+## Sample API Usage
 Screenshots demonstrating:
 
 Instrument fetch
@@ -139,7 +141,7 @@ are included as part of the submission.
 
 ---
 
-## 📝 Assumptions
+## Assumptions
 Single hardcoded user (mock authentication)
 
 Static instrument prices
